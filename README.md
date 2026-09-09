@@ -27,15 +27,17 @@ Kalau dosen memperbaiki sesuatu di pertemuan yang sudah dirilis (mis. ada bug di
 Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (lihat `pertemuan-XX/SOAL.md`) — heading-nya dicek otomatis, jangan diganti namanya.
 
 ## Struktur Project
-(tulis di sini)
+index.html memuat main.tsx dan sebagai tempat untuk react ditampilkan
+main.tsx mengimpor css dan komponen App, mengambil elemen html dengan id root lalu merender App/> ke elemen terseut
+App.tsx berufungsi memangil function dari identitas.ts, isi halaman, memberikan judul paragraf dan hasil fucnrtion dalam jsx
 
 ## Identitas
-- Nama: (tulis di sini)
-- NRP: (tulis di sini)
-- Kelas: (tulis di sini)
+- Nama: Aqsha Fadhli Azhim
+- NRP: 5053231023
+- Kelas: Pengembangan Frontend Dasar
 
 ## Commit vs Push
-(tulis di sini)
+Commit adalah seperti checkpoint dinatara perubahan perubahan kecil yang kita buat dalam project dan bersifat lokal jika belum dilakukan push, jadi push adalah tahap pengumpulan dari banyaknya commit yang kita lakukan dan dapat di simpan di github
 
 ## JSX vs TSX
 (tulis di sini)
